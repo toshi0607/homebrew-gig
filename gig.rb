@@ -1,22 +1,22 @@
 class Gig < Formula
   homepage 'https://github.com/toshi0607/gig'
-  version '0.1.1'
+  version '0.1.2'
 
   if Hardware::CPU.is_32_bit?
     if OS.linux?
-      url 'https://github.com/toshi0607/gig/releases/download/v0.1.1/gig_linux_386.zip'
-      sha256 '7614f16e2644f395de62d33815c6a274577fe4dedf73560b24b6450a9ea812dd'
+      url 'https://github.com/toshi0607/gig/releases/download/v0.1.2/gig_linux_386.zip'
+      sha256 '5b9aebd90179f1a2645b0ceb63c342ee47a3bb57ab282c89738713f1471a4ee7'
     else
-      url 'https://github.com/toshi0607/gig/releases/download/v0.1.1/gig_darwin_386.zip'
-      sha256 'b37ef220c0882e210b2080d64a05a2b48dec80013001fce64b6dca4c3211192b'
+      url 'https://github.com/toshi0607/gig/releases/download/v0.1.2/gig_darwin_386.zip'
+      sha256 '5c3f99552f0398749a226f9a94e4b890094e7c179396718d40d6a3452fc5839b'
     end
   else
     if OS.linux?
-      url 'https://github.com/toshi0607/gig/releases/download/v0.1.1/gig_linux_amd64.zip'
-      sha256 'a80a37dfec4e0cdf590a92ef449b06e0ea1e837e37137e738ba440e9720f7684'
+      url 'https://github.com/toshi0607/gig/releases/download/v0.1.2/gig_linux_amd64.zip'
+      sha256 '86f2bb4dff58517ab62defe8086f35d6c53361e3e67abb97c8bdc2145fc7a099'
     else
-      url 'https://github.com/toshi0607/gig/releases/download/v0.1.1/gig_darwin_amd64.zip'
-      sha256 '36a001851cf6a7a8f45a34a458357392a44fd19c3e1f50168b774fd921526051'
+      url 'https://github.com/toshi0607/gig/releases/download/v0.1.2/gig_darwin_amd64.zip'
+      sha256 '4845bd311709fdff14586f474bd2260751183b0295254ac8a77ce737e1b65212'
     end
   end
 
